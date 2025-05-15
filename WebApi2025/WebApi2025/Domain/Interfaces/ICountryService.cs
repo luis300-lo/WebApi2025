@@ -1,4 +1,5 @@
 ﻿using WebApi2025.DAL.Entities;
+using Microsoft.AspNetCore.SignalR;
 
 namespace WebApi2025.Domain.Interfaces
 {
