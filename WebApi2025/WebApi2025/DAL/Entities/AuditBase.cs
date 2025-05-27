@@ -7,7 +7,7 @@ namespace WebApi2025.DAL.Entities
         [Key]
         [Required]
 
-        public virtual Guid id { get; set; }
+        public virtual Guid Id { get; set; }
         public virtual DateTime? CreatedDate { get; set; }
         public virtual DateTime? ModifiedDate { get; set; }
     }
