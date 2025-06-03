@@ -17,11 +17,11 @@ namespace WebApi2025.DAL
             modelBuilder.Entity<Country>().HasIndex(c => c.Name).IsUnique();
         }
 
+        //Comment
         #region DbSets
         public DbSet<Country> countries { get; set; }
 
         #endregion
-
 
 
 
