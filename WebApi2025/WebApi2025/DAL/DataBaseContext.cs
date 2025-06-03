@@ -17,7 +17,7 @@ namespace WebApi2025.DAL
             modelBuilder.Entity<Country>().HasIndex(c => c.Name).IsUnique();
         }
 
-        //Comment
+        //Comment 2
         #region DbSets
         public DbSet<Country> countries { get; set; }
 
